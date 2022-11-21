@@ -12,31 +12,43 @@ body {
 
 
 .d-flex {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
+}
+
+.w-50{
+    width: 45%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.txt-r{
+     text-align: right;
 }
 
 .container {
     width: 28%;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 
 }
+
 .bg-white{
+    width: 100%;
     background-color: #ffffff;
-    border-radius: 5px;
-    padding: 18px 20px;
+    border-radius: 10px;
+    padding: 3px 0;
+    font-size: 15px;
 }
 
 
 img{
-    width: 70%;
+    width: 100%;
 }
 
 .txt-blue{
     color: #0A65CD;
-    font-size: 15px;
 }
 
 .btn{
@@ -51,28 +63,33 @@ img{
     font-size: 16px;
     word-spacing: 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
+
 
 .font-san{
     font-family: sans-serif;
     font-size: 12px !important;
 }
 
+
 .text{
-    margin: 0 12px;
+    margin-top: 30px;
     margin-bottom: 20px;
+    padding: 0 40px;
 }
 
 .box-txt{
     border: 1px solid #D9D9D9;
-    border-radius: 5px;
-    padding: 0 3px;
-    margin-bottom: 30px;
-    margin-top: 15px;
+    border-radius: 8px;
+    padding: 0 5px;
+    margin: 0 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .box-txt p:nth-child(3){
-    text-align: right;
     font-size: 13px;
 }
 
